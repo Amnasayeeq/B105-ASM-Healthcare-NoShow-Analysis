@@ -35,7 +35,7 @@ To replicate this analysis, follow these steps:
 
 1. **Clone the repository** to your local machine using Git:
 ```
-git clone "https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git"
+git clone "(https://github.com/Amnasayeeq/B105-ASM-Healthcare-NoShow-Analysis.git)"
 ```
 
 2. **Get the dataset:** Download `KaggleV2-May-2016.csv` from [Kaggle's "Medical Appointment No Shows"](https://www.kaggle.com/datasets/joniarroba/noshowappointments), rename it `appointments_raw.csv`, and place it in the `data/` folder.
@@ -43,7 +43,7 @@ git clone "https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git"
 3. **Set the working directory in R:** Open R or RStudio, and before running any scripts, set your working directory to the root of the cloned folder:
 ```r
 # Example:
-setwd("./YOUR-REPO-NAME")
+setwd("./B105-ASM-Healthcare-NoShow-Analysis")
 ```
 
 4. **Run the scripts:** Run `scripts/00_run_all.R` to execute the full pipeline in order, or run the numbered scripts individually. Install the packages listed at the top of each script first (`tidyverse`, `car`, `pROC`, `broom`).
