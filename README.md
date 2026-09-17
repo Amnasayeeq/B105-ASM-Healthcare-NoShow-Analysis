@@ -35,7 +35,7 @@ To replicate this analysis, follow these steps:
 
 1. **Clone the repository** to your local machine using Git:
 ```
-git clone "(https://github.com/Amnasayeeq/B105-ASM-Healthcare-NoShow-Analysis.git)"
+git clone "https://github.com/Amnasayeeq/B105-ASM-Healthcare-NoShow-Analysis.git"
 ```
 
 2. **Get the dataset:** Download `KaggleV2-May-2016.csv` from [Kaggle's "Medical Appointment No Shows"](https://www.kaggle.com/datasets/joniarroba/noshowappointments), rename it `appointments_raw.csv`, and place it in the `data/` folder.
