@@ -9,7 +9,7 @@ This project conducts a comprehensive statistical analysis of the "Medical Appoi
 3.	Do SMS reminders actually have an impact on reducing no shows? 
 4.	Is waiting time systematically different for each age group of patients? 
 5.	How well can the combination of these factors predict a no show, and which of them is best able to do so?
-6.	
+   
 ## Methodology
 The analysis was conducted in R and followed a structured workflow:
 1. **Data Cleaning & Preparation:** Parsed scheduling/appointment dates, derived a `WaitingDays` feature, removed known data-entry errors (negative ages, impossible negative waits), and typed all categorical variables as factors.
